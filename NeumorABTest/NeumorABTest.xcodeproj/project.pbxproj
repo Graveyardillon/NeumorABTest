@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101C6CBD002CD39901167DDC /* Pods_NeumorABTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66FE553AFF2C94E89311108 /* Pods_NeumorABTestTests.framework */; };
+		1FF2D13E35B58C58E434EA5E /* Pods_NeumorABTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DC0A2AA1A3C4533183A4E3 /* Pods_NeumorABTest.framework */; };
 		418AEFA823FEB60200BE0F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFA723FEB60200BE0F5D /* AppDelegate.swift */; };
 		418AEFAA23FEB60200BE0F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFA923FEB60200BE0F5D /* SceneDelegate.swift */; };
 		418AEFAC23FEB60200BE0F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFAB23FEB60200BE0F5D /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 		418AEFB723FEB60700BE0F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFB523FEB60700BE0F5D /* LaunchScreen.storyboard */; };
 		418AEFC223FEB60700BE0F5D /* NeumorABTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFC123FEB60700BE0F5D /* NeumorABTestTests.swift */; };
 		418AEFCD23FEB60700BE0F5D /* NeumorABTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFCC23FEB60700BE0F5D /* NeumorABTestUITests.swift */; };
+		418AEFDB23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */; };
+		418AEFDC23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */; };
+		418AEFDD23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */; };
+		5ECE03E72BC23AA1FA85280B /* Pods_NeumorABTest_NeumorABTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7AB35AEE59CD104C97134 /* Pods_NeumorABTest_NeumorABTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10DC0A2AA1A3C4533183A4E3 /* Pods_NeumorABTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeumorABTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		418AEFA423FEB60200BE0F5D /* NeumorABTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorABTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418AEFA723FEB60200BE0F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418AEFA923FEB60200BE0F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		418AEFC823FEB60700BE0F5D /* NeumorABTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorABTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418AEFCC23FEB60700BE0F5D /* NeumorABTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorABTestUITests.swift; sourceTree = "<group>"; };
 		418AEFCE23FEB60700BE0F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47A49657081C794B89E63540 /* Pods-NeumorABTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTest.debug.xcconfig"; path = "Target Support Files/Pods-NeumorABTest/Pods-NeumorABTest.debug.xcconfig"; sourceTree = "<group>"; };
+		69B55EC5192B89C9525A1B13 /* Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig"; path = "Target Support Files/Pods-NeumorABTest-NeumorABTestUITests/Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71E3B3DC6CDFA2097E76D711 /* Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeumorABTest-NeumorABTestUITests/Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E1C3392C99C727BEE55F121 /* Pods-NeumorABTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTestTests.release.xcconfig"; path = "Target Support Files/Pods-NeumorABTestTests/Pods-NeumorABTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C6DEF6127955703745BE303 /* Pods-NeumorABTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NeumorABTestTests/Pods-NeumorABTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F7AB35AEE59CD104C97134 /* Pods_NeumorABTest_NeumorABTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeumorABTest_NeumorABTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66FE553AFF2C94E89311108 /* Pods_NeumorABTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeumorABTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F836ED13B700F1BE98F229D7 /* Pods-NeumorABTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTest.release.xcconfig"; path = "Target Support Files/Pods-NeumorABTest/Pods-NeumorABTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF2D13E35B58C58E434EA5E /* Pods_NeumorABTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101C6CBD002CD39901167DDC /* Pods_NeumorABTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ECE03E72BC23AA1FA85280B /* Pods_NeumorABTest_NeumorABTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				418AEFC023FEB60700BE0F5D /* NeumorABTestTests */,
 				418AEFCB23FEB60700BE0F5D /* NeumorABTestUITests */,
 				418AEFA523FEB60200BE0F5D /* Products */,
+				E31CDF9FB1F1B5B0A8C03EE5 /* Pods */,
+				CEBC3C4781A93D584B581DB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,7 @@
 		418AEFA623FEB60200BE0F5D /* NeumorABTest */ = {
 			isa = PBXGroup;
 			children = (
+				418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */,
 				418AEFA723FEB60200BE0F5D /* AppDelegate.swift */,
 				418AEFA923FEB60200BE0F5D /* SceneDelegate.swift */,
 				418AEFAB23FEB60200BE0F5D /* ViewController.swift */,
@@ -131,6 +153,30 @@
 			path = NeumorABTestUITests;
 			sourceTree = "<group>";
 		};
+		CEBC3C4781A93D584B581DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DC0A2AA1A3C4533183A4E3 /* Pods_NeumorABTest.framework */,
+				A2F7AB35AEE59CD104C97134 /* Pods_NeumorABTest_NeumorABTestUITests.framework */,
+				D66FE553AFF2C94E89311108 /* Pods_NeumorABTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E31CDF9FB1F1B5B0A8C03EE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A49657081C794B89E63540 /* Pods-NeumorABTest.debug.xcconfig */,
+				F836ED13B700F1BE98F229D7 /* Pods-NeumorABTest.release.xcconfig */,
+				71E3B3DC6CDFA2097E76D711 /* Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig */,
+				69B55EC5192B89C9525A1B13 /* Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig */,
+				9C6DEF6127955703745BE303 /* Pods-NeumorABTestTests.debug.xcconfig */,
+				7E1C3392C99C727BEE55F121 /* Pods-NeumorABTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418AEFD123FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTest" */;
 			buildPhases = (
+				A4AD05A6E716C67224ADB87A /* [CP] Check Pods Manifest.lock */,
 				418AEFA023FEB60200BE0F5D /* Sources */,
 				418AEFA123FEB60200BE0F5D /* Frameworks */,
 				418AEFA223FEB60200BE0F5D /* Resources */,
+				97652B054032DB895E4644E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418AEFD423FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTestTests" */;
 			buildPhases = (
+				8594DFC52DF84190A8DB3518 /* [CP] Check Pods Manifest.lock */,
 				418AEFB923FEB60700BE0F5D /* Sources */,
 				418AEFBA23FEB60700BE0F5D /* Frameworks */,
 				418AEFBB23FEB60700BE0F5D /* Resources */,
@@ -173,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418AEFD723FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTestUITests" */;
 			buildPhases = (
+				F6F73FA38A9EDA17DC6FC7CE /* [CP] Check Pods Manifest.lock */,
 				418AEFC423FEB60700BE0F5D /* Sources */,
 				418AEFC523FEB60700BE0F5D /* Frameworks */,
 				418AEFC623FEB60700BE0F5D /* Resources */,
+				D27F59CD3ED708E48B5C9655 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				418AEFB723FEB60700BE0F5D /* LaunchScreen.storyboard in Resources */,
+				418AEFDB23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */,
 				418AEFB423FEB60700BE0F5D /* Assets.xcassets in Resources */,
 				418AEFAF23FEB60200BE0F5D /* Main.storyboard in Resources */,
 			);
@@ -245,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418AEFDC23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +305,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418AEFDD23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8594DFC52DF84190A8DB3518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeumorABTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97652B054032DB895E4644E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorABTest/Pods-NeumorABTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorABTest/Pods-NeumorABTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeumorABTest/Pods-NeumorABTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4AD05A6E716C67224ADB87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeumorABTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27F59CD3ED708E48B5C9655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorABTest-NeumorABTestUITests/Pods-NeumorABTest-NeumorABTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorABTest-NeumorABTestUITests/Pods-NeumorABTest-NeumorABTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeumorABTest-NeumorABTestUITests/Pods-NeumorABTest-NeumorABTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F73FA38A9EDA17DC6FC7CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeumorABTest-NeumorABTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		418AEFA023FEB60200BE0F5D /* Sources */ = {
@@ -436,6 +593,7 @@
 		};
 		418AEFD223FEB60700BE0F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A49657081C794B89E63540 /* Pods-NeumorABTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +612,7 @@
 		};
 		418AEFD323FEB60700BE0F5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F836ED13B700F1BE98F229D7 /* Pods-NeumorABTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +631,7 @@
 		};
 		418AEFD523FEB60700BE0F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6DEF6127955703745BE303 /* Pods-NeumorABTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +654,7 @@
 		};
 		418AEFD623FEB60700BE0F5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1C3392C99C727BEE55F121 /* Pods-NeumorABTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +677,7 @@
 		};
 		418AEFD823FEB60700BE0F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E3B3DC6CDFA2097E76D711 /* Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +698,7 @@
 		};
 		418AEFD923FEB60700BE0F5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B55EC5192B89C9525A1B13 /* Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

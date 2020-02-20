@@ -1,0 +1,6 @@
+framework module Pods_NeumorABTestTests {
+  umbrella header "Pods-NeumorABTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
