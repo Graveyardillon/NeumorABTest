@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418AEFA823FEB60200BE0F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFA723FEB60200BE0F5D /* AppDelegate.swift */; };
+		418AEFAA23FEB60200BE0F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFA923FEB60200BE0F5D /* SceneDelegate.swift */; };
+		418AEFAC23FEB60200BE0F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFAB23FEB60200BE0F5D /* ViewController.swift */; };
+		418AEFAF23FEB60200BE0F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFAD23FEB60200BE0F5D /* Main.storyboard */; };
+		418AEFB223FEB60200BE0F5D /* NeumorABTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFB023FEB60200BE0F5D /* NeumorABTest.xcdatamodeld */; };
+		418AEFB423FEB60700BE0F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFB323FEB60700BE0F5D /* Assets.xcassets */; };
+		418AEFB723FEB60700BE0F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFB523FEB60700BE0F5D /* LaunchScreen.storyboard */; };
+		418AEFC223FEB60700BE0F5D /* NeumorABTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFC123FEB60700BE0F5D /* NeumorABTestTests.swift */; };
+		418AEFCD23FEB60700BE0F5D /* NeumorABTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AEFCC23FEB60700BE0F5D /* NeumorABTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418AEFBE23FEB60700BE0F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418AEF9C23FEB60200BE0F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418AEFA323FEB60200BE0F5D;
+			remoteInfo = NeumorABTest;
+		};
+		418AEFC923FEB60700BE0F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418AEF9C23FEB60200BE0F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418AEFA323FEB60200BE0F5D;
+			remoteInfo = NeumorABTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418AEFA423FEB60200BE0F5D /* NeumorABTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorABTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418AEFA723FEB60200BE0F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		418AEFA923FEB60200BE0F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		418AEFAB23FEB60200BE0F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		418AEFAE23FEB60200BE0F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		418AEFB123FEB60200BE0F5D /* NeumorABTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeumorABTest.xcdatamodel; sourceTree = "<group>"; };
+		418AEFB323FEB60700BE0F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		418AEFB623FEB60700BE0F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		418AEFB823FEB60700BE0F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418AEFBD23FEB60700BE0F5D /* NeumorABTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorABTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418AEFC123FEB60700BE0F5D /* NeumorABTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorABTestTests.swift; sourceTree = "<group>"; };
+		418AEFC323FEB60700BE0F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418AEFC823FEB60700BE0F5D /* NeumorABTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorABTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418AEFCC23FEB60700BE0F5D /* NeumorABTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorABTestUITests.swift; sourceTree = "<group>"; };
+		418AEFCE23FEB60700BE0F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418AEFA123FEB60200BE0F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418AEFBA23FEB60700BE0F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418AEFC523FEB60700BE0F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418AEF9B23FEB60200BE0F5D = {
+			isa = PBXGroup;
+			children = (
+				418AEFA623FEB60200BE0F5D /* NeumorABTest */,
+				418AEFC023FEB60700BE0F5D /* NeumorABTestTests */,
+				418AEFCB23FEB60700BE0F5D /* NeumorABTestUITests */,
+				418AEFA523FEB60200BE0F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418AEFA523FEB60200BE0F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418AEFA423FEB60200BE0F5D /* NeumorABTest.app */,
+				418AEFBD23FEB60700BE0F5D /* NeumorABTestTests.xctest */,
+				418AEFC823FEB60700BE0F5D /* NeumorABTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418AEFA623FEB60200BE0F5D /* NeumorABTest */ = {
+			isa = PBXGroup;
+			children = (
+				418AEFA723FEB60200BE0F5D /* AppDelegate.swift */,
+				418AEFA923FEB60200BE0F5D /* SceneDelegate.swift */,
+				418AEFAB23FEB60200BE0F5D /* ViewController.swift */,
+				418AEFAD23FEB60200BE0F5D /* Main.storyboard */,
+				418AEFB323FEB60700BE0F5D /* Assets.xcassets */,
+				418AEFB523FEB60700BE0F5D /* LaunchScreen.storyboard */,
+				418AEFB823FEB60700BE0F5D /* Info.plist */,
+				418AEFB023FEB60200BE0F5D /* NeumorABTest.xcdatamodeld */,
+			);
+			path = NeumorABTest;
+			sourceTree = "<group>";
+		};
+		418AEFC023FEB60700BE0F5D /* NeumorABTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				418AEFC123FEB60700BE0F5D /* NeumorABTestTests.swift */,
+				418AEFC323FEB60700BE0F5D /* Info.plist */,
+			);
+			path = NeumorABTestTests;
+			sourceTree = "<group>";
+		};
+		418AEFCB23FEB60700BE0F5D /* NeumorABTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				418AEFCC23FEB60700BE0F5D /* NeumorABTestUITests.swift */,
+				418AEFCE23FEB60700BE0F5D /* Info.plist */,
+			);
+			path = NeumorABTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418AEFA323FEB60200BE0F5D /* NeumorABTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418AEFD123FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTest" */;
+			buildPhases = (
+				418AEFA023FEB60200BE0F5D /* Sources */,
+				418AEFA123FEB60200BE0F5D /* Frameworks */,
+				418AEFA223FEB60200BE0F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeumorABTest;
+			productName = NeumorABTest;
+			productReference = 418AEFA423FEB60200BE0F5D /* NeumorABTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418AEFBC23FEB60700BE0F5D /* NeumorABTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418AEFD423FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTestTests" */;
+			buildPhases = (
+				418AEFB923FEB60700BE0F5D /* Sources */,
+				418AEFBA23FEB60700BE0F5D /* Frameworks */,
+				418AEFBB23FEB60700BE0F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418AEFBF23FEB60700BE0F5D /* PBXTargetDependency */,
+			);
+			name = NeumorABTestTests;
+			productName = NeumorABTestTests;
+			productReference = 418AEFBD23FEB60700BE0F5D /* NeumorABTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		418AEFC723FEB60700BE0F5D /* NeumorABTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418AEFD723FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTestUITests" */;
+			buildPhases = (
+				418AEFC423FEB60700BE0F5D /* Sources */,
+				418AEFC523FEB60700BE0F5D /* Frameworks */,
+				418AEFC623FEB60700BE0F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418AEFCA23FEB60700BE0F5D /* PBXTargetDependency */,
+			);
+			name = NeumorABTestUITests;
+			productName = NeumorABTestUITests;
+			productReference = 418AEFC823FEB60700BE0F5D /* NeumorABTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418AEF9C23FEB60200BE0F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Papillon;
+				TargetAttributes = {
+					418AEFA323FEB60200BE0F5D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					418AEFBC23FEB60700BE0F5D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 418AEFA323FEB60200BE0F5D;
+					};
+					418AEFC723FEB60700BE0F5D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 418AEFA323FEB60200BE0F5D;
+					};
+				};
+			};
+			buildConfigurationList = 418AEF9F23FEB60200BE0F5D /* Build configuration list for PBXProject "NeumorABTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418AEF9B23FEB60200BE0F5D;
+			productRefGroup = 418AEFA523FEB60200BE0F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418AEFA323FEB60200BE0F5D /* NeumorABTest */,
+				418AEFBC23FEB60700BE0F5D /* NeumorABTestTests */,
+				418AEFC723FEB60700BE0F5D /* NeumorABTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418AEFA223FEB60200BE0F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418AEFB723FEB60700BE0F5D /* LaunchScreen.storyboard in Resources */,
+				418AEFB423FEB60700BE0F5D /* Assets.xcassets in Resources */,
+				418AEFAF23FEB60200BE0F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418AEFBB23FEB60700BE0F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418AEFC623FEB60700BE0F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418AEFA023FEB60200BE0F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418AEFAC23FEB60200BE0F5D /* ViewController.swift in Sources */,
+				418AEFA823FEB60200BE0F5D /* AppDelegate.swift in Sources */,
+				418AEFB223FEB60200BE0F5D /* NeumorABTest.xcdatamodeld in Sources */,
+				418AEFAA23FEB60200BE0F5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418AEFB923FEB60700BE0F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418AEFC223FEB60700BE0F5D /* NeumorABTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418AEFC423FEB60700BE0F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418AEFCD23FEB60700BE0F5D /* NeumorABTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418AEFBF23FEB60700BE0F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418AEFA323FEB60200BE0F5D /* NeumorABTest */;
+			targetProxy = 418AEFBE23FEB60700BE0F5D /* PBXContainerItemProxy */;
+		};
+		418AEFCA23FEB60700BE0F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418AEFA323FEB60200BE0F5D /* NeumorABTest */;
+			targetProxy = 418AEFC923FEB60700BE0F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		418AEFAD23FEB60200BE0F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418AEFAE23FEB60200BE0F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		418AEFB523FEB60700BE0F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418AEFB623FEB60700BE0F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		418AEFCF23FEB60700BE0F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		418AEFD023FEB60700BE0F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418AEFD223FEB60700BE0F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNZTXRL7B7;
+				INFOPLIST_FILE = NeumorABTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Papillon.NeumorABTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		418AEFD323FEB60700BE0F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNZTXRL7B7;
+				INFOPLIST_FILE = NeumorABTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Papillon.NeumorABTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		418AEFD523FEB60700BE0F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNZTXRL7B7;
+				INFOPLIST_FILE = NeumorABTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Papillon.NeumorABTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeumorABTest.app/NeumorABTest";
+			};
+			name = Debug;
+		};
+		418AEFD623FEB60700BE0F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNZTXRL7B7;
+				INFOPLIST_FILE = NeumorABTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Papillon.NeumorABTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeumorABTest.app/NeumorABTest";
+			};
+			name = Release;
+		};
+		418AEFD823FEB60700BE0F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNZTXRL7B7;
+				INFOPLIST_FILE = NeumorABTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Papillon.NeumorABTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeumorABTest;
+			};
+			name = Debug;
+		};
+		418AEFD923FEB60700BE0F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNZTXRL7B7;
+				INFOPLIST_FILE = NeumorABTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Papillon.NeumorABTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeumorABTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418AEF9F23FEB60200BE0F5D /* Build configuration list for PBXProject "NeumorABTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418AEFCF23FEB60700BE0F5D /* Debug */,
+				418AEFD023FEB60700BE0F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418AEFD123FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418AEFD223FEB60700BE0F5D /* Debug */,
+				418AEFD323FEB60700BE0F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418AEFD423FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418AEFD523FEB60700BE0F5D /* Debug */,
+				418AEFD623FEB60700BE0F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418AEFD723FEB60700BE0F5D /* Build configuration list for PBXNativeTarget "NeumorABTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418AEFD823FEB60700BE0F5D /* Debug */,
+				418AEFD923FEB60700BE0F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		418AEFB023FEB60200BE0F5D /* NeumorABTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				418AEFB123FEB60200BE0F5D /* NeumorABTest.xcdatamodel */,
+			);
+			currentVersion = 418AEFB123FEB60200BE0F5D /* NeumorABTest.xcdatamodel */;
+			path = NeumorABTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 418AEF9C23FEB60200BE0F5D /* Project object */;
+}
