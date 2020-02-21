@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,9 @@
 		418AEFDB23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */; };
 		418AEFDC23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */; };
 		418AEFDD23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */; };
+		418AEFE023FF69DC00BE0F5D /* RemoteConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDF23FF69DC00BE0F5D /* RemoteConfig.plist */; };
+		418AEFE123FF69DC00BE0F5D /* RemoteConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDF23FF69DC00BE0F5D /* RemoteConfig.plist */; };
+		418AEFE223FF69DC00BE0F5D /* RemoteConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 418AEFDF23FF69DC00BE0F5D /* RemoteConfig.plist */; };
 		5ECE03E72BC23AA1FA85280B /* Pods_NeumorABTest_NeumorABTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7AB35AEE59CD104C97134 /* Pods_NeumorABTest_NeumorABTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,7 @@
 		418AEFCC23FEB60700BE0F5D /* NeumorABTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorABTestUITests.swift; sourceTree = "<group>"; };
 		418AEFCE23FEB60700BE0F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		418AEFDF23FF69DC00BE0F5D /* RemoteConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfig.plist; sourceTree = "<group>"; };
 		47A49657081C794B89E63540 /* Pods-NeumorABTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTest.debug.xcconfig"; path = "Target Support Files/Pods-NeumorABTest/Pods-NeumorABTest.debug.xcconfig"; sourceTree = "<group>"; };
 		69B55EC5192B89C9525A1B13 /* Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig"; path = "Target Support Files/Pods-NeumorABTest-NeumorABTestUITests/Pods-NeumorABTest-NeumorABTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		71E3B3DC6CDFA2097E76D711 /* Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeumorABTest-NeumorABTestUITests/Pods-NeumorABTest-NeumorABTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 		418AEFA623FEB60200BE0F5D /* NeumorABTest */ = {
 			isa = PBXGroup;
 			children = (
+				418AEFDE23FF69B100BE0F5D /* config */,
 				418AEFDA23FEB77500BE0F5D /* GoogleService-Info.plist */,
 				418AEFA723FEB60200BE0F5D /* AppDelegate.swift */,
 				418AEFA923FEB60200BE0F5D /* SceneDelegate.swift */,
@@ -153,6 +158,14 @@
 			path = NeumorABTestUITests;
 			sourceTree = "<group>";
 		};
+		418AEFDE23FF69B100BE0F5D /* config */ = {
+			isa = PBXGroup;
+			children = (
+				418AEFDF23FF69DC00BE0F5D /* RemoteConfig.plist */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
 		CEBC3C4781A93D584B581DB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +186,6 @@
 				9C6DEF6127955703745BE303 /* Pods-NeumorABTestTests.debug.xcconfig */,
 				7E1C3392C99C727BEE55F121 /* Pods-NeumorABTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -287,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				418AEFB723FEB60700BE0F5D /* LaunchScreen.storyboard in Resources */,
+				418AEFE023FF69DC00BE0F5D /* RemoteConfig.plist in Resources */,
 				418AEFDB23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */,
 				418AEFB423FEB60700BE0F5D /* Assets.xcassets in Resources */,
 				418AEFAF23FEB60200BE0F5D /* Main.storyboard in Resources */,
@@ -297,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418AEFE123FF69DC00BE0F5D /* RemoteConfig.plist in Resources */,
 				418AEFDC23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418AEFE223FF69DC00BE0F5D /* RemoteConfig.plist in Resources */,
 				418AEFDD23FEB77500BE0F5D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

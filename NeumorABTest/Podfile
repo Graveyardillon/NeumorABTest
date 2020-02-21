@@ -6,7 +6,13 @@ target 'NeumorABTest' do
   use_frameworks!
 
   # add the Firebase pod for Google Analytics
+  #source "https://cpdc-eap.googlesource.com/spec.git"
+  source "https://github.com/CocoaPods/Specs.git"
+  pod 'FirebaseABTesting'
+
   pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/RemoteConfig'
   # add pods for any other desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
   # Pods for NeumorABTest
